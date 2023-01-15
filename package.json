@@ -8,5 +8,8 @@
   "devDependencies": {
     "sass": "^1.56.2",
     "vite": "^4.0.0"
+  },
+  "dependencies": {
+    "jquery": "^3.6.3"
   }
 }

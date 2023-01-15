@@ -1,1 +1,3 @@
-console.log('Init');
+import scrollTo from './scrollTo'
+
+scrollTo()

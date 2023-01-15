@@ -1,0 +1,19 @@
+.buttons {
+    border: none;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    background-color: $primary-color;
+    color: $text-color;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 14px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 250px;
+    transition: background-color .3s ease;
+
+    &:hover {
+        background-color: darken($primary-color, 10%);
+    }
+}

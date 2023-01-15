@@ -1,0 +1,15 @@
+// Colors
+$background-color: #333333;
+$header-color: #1f464d;
+$primary-color: #3697a7;
+$text-color: #fff;
+
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: $background-color;
+    color: $text-color;
+}
+

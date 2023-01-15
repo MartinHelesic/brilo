@@ -1,0 +1,25 @@
+nav {
+    display: flex;
+    justify-content: right;
+    
+    ul {
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+
+        li {
+            list-style-type: none;
+
+            a {
+                text-decoration: none;
+                text-transform: uppercase;
+                font-weight: 100;
+                color: $text-color;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}

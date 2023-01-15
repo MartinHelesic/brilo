@@ -1,1 +1,12 @@
 @import './normalize';
+@import './settings';
+
+
+@import './components/header';
+@import './components/nav';
+@import './components/container';
+@import './components/hero';
+@import './components/buttons';
+
+@import './components/stretched-link';
+@import './components/footer';
